@@ -1,0 +1,8 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate with React, Redux and TypeScript",
+  "main": "index.js",
+  "author": "Cheng Huang",
+  "license": "MIT"
+}
