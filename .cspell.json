@@ -1,0 +1,26 @@
+{
+  "version": "0.1",
+  "language": "en",
+  "ignorePaths": [
+    "\\.*",
+    "package.json",
+    "tsconfig.json",
+    "commitlint.config.js",
+    "webpack/",
+    "typings/",
+    "node_modules/"
+  ],
+  "dictionaries": [
+    "typescript",
+    "html",
+    "css",
+    "node",
+    "npm",
+    "misc",
+    "filetypes",
+    "softwareTerms"
+  ],
+  "words": [
+    "devtools"
+  ]
+}
