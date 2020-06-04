@@ -2,7 +2,8 @@
   "*.{ts,tsx}": [
     "yarn prettier",
     "yarn check-spell",
-    "yarn lint:eslint"
+    "yarn lint:eslint",
+    "yarn test"
   ],
   "*.css": [
     "yarn lint:stylelint"
