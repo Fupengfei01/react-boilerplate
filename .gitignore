@@ -56,3 +56,9 @@ dist/
 
 # dotenv environment variables file
 .env
+
+cypress/videos
+cypress/screenshots
+cypress/fixtures
+cypress/plugins
+cypress/support

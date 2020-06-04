@@ -12,8 +12,13 @@ export interface Route {
 
 export default [
   {
-    path: '/',
+    path: '/home',
     component: load('Home'),
+    extract: true,
+  },
+  {
+    path: '/login',
+    component: load('Login'),
     extract: true,
   },
 ];

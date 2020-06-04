@@ -26,10 +26,7 @@ const config = {
       'Access-Control-Allow-Origin': '*',
     },
     proxy: {
-      '/api': 'http://localhost:3000',
-      '/third-party-api': 'http://localhost:3000',
-      '/third-party-login': 'http://localhost:3000',
-      '/third-party-logout': 'http://localhost:3000',
+      'POST /login': { id: 1, username: 'test', email: 'test@example.com', avatar: '' },
     },
   },
 };
