@@ -6,7 +6,7 @@ import reducers from '../reducers';
 
 export default function configureStore(initialState) {
   const sagaMiddleware = createSagaMiddleware();
-  const store = createStore(reducers, composeWithDevTools(applyMiddleware(sagaMiddleware)));
+  const store = createStore(reducers, initialState, composeWithDevTools(applyMiddleware(sagaMiddleware)));
 
   if (module.hot) {
     module.hot.accept('../reducers', () => {

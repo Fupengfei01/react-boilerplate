@@ -7,7 +7,6 @@ import rootSaga from './sagas';
 
 import MainLayout from './layouts/MainLayout';
 
-/* eslint-disable-next-line */
 import configureStore from './store';
 
 import './App.css';

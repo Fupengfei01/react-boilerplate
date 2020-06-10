@@ -19,14 +19,10 @@ const config = {
     open: false,
     inline: true,
     overlay: true,
-    stats: 'errors-only',
     historyApiFallback: true,
     port: 8080,
     headers: {
       'Access-Control-Allow-Origin': '*',
-    },
-    proxy: {
-      'POST /login': { id: 1, username: 'test', email: 'test@example.com', avatar: '' },
     },
   },
 };
